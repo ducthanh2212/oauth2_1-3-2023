@@ -49,5 +49,9 @@ public class TestController {
     public ResponseEntity<?>  randomStuff(){
     	return ResponseEntity.ok().body("xin chao");
     }
-    
+
+        @GetMapping("/random2")
+    public ResponseEntity<?>  randomStuff2(){
+    	return ResponseEntity.ok().body("xin chao");
+    }
 }
